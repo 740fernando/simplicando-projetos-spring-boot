@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="926b6a53-aad9-405e-91d4-34f18734e894" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/inversaoDeControle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/inversaoControle/com.dio.inversaoDeControle/EnviarEmails.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/springbeans/dio/inversaoDeControle/EnviarEmails.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inversaoControle/com.dio.inversaoDeControle/Pedido.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/springbeans/dio/inversaoDeControle/Pedido.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,8 +16,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -34,20 +35,56 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/springbeans" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.springbeans.dio.injecaoDependencia" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\ws-spring\utilizandoBeans\src\main\java\com\springbeans" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\ws-spring\utilizandoBeans\src\main\java\com\springbeans" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.springbeans" />
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Condutor">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.springbeans.application.App" />
       <module name="boot" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.springbeans.application.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Condutor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.springbeans.dio.injecaoDependencia.Condutor" />
+      <module name="boot" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.springbeans.dio.injecaoDependencia.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Pedido" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.springbeans.inversaoControle.com.dio.inversaoDeControle.Pedido" />
+      <module name="boot" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.springbeans.inversaoControle.com.dio.inversaoDeControle.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -70,6 +107,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Condutor" />
+        <item itemvalue="Application.Pedido" />
         <item itemvalue="Application.App" />
       </list>
     </recent_temporary>
@@ -85,6 +124,17 @@
     </task>
     <servers />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
@@ -97,6 +147,11 @@
           <url>file://$PROJECT_DIR$/inversaoDeControle/src/com/dio/inversaDeControle/Pedido.java</url>
           <line>8</line>
           <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/springbeans/dio/injecaoDependencia/Condutor.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
