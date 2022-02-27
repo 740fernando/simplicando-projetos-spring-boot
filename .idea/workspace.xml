@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="926b6a53-aad9-405e-91d4-34f18734e894" name="Changes" comment="" />
+    <list default="true" id="926b6a53-aad9-405e-91d4-34f18734e894" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/inversaoDeControle" beforeDir="false" afterPath="$PROJECT_DIR$/inversaoDeControle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inversaoDeControle/src/com/dio/inversaDeControle/EnviarEmails.java" beforeDir="false" afterPath="$PROJECT_DIR$/inversaoDeControle/src/com/dio/inversaDeControle/EnviarEmails.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inversaoDeControle/src/com/dio/inversaDeControle/Pedido.java" beforeDir="false" afterPath="$PROJECT_DIR$/inversaoDeControle/src/com/dio/inversaDeControle/Pedido.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,7 +23,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/simplicando-projetos-spring-boot" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="25hVBGBkgcp83q1QYjGFAbHQts9" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
