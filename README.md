@@ -1,21 +1,75 @@
-![image](https://user-images.githubusercontent.com/32016610/155889470-a7b43d23-7a24-48b1-b1c5-247fe1eb9777.png)
+<h1> Abstraia a complexidade de configuração com o Spring Boot </h1>
 
-![image](https://user-images.githubusercontent.com/32016610/155889788-384f73a7-705e-4e6c-8e76-6b97fa56e702.png)
+<h3> Objetivo do curso </h3>
 
-![image](https://user-images.githubusercontent.com/32016610/155889879-89c43150-5b24-432b-9135-46f5395bbb04.png)
+Aplicar e entender conceitos do Spring Framework e Spring Boot, ao final ficará mais claro como funciona a injeção de dependência e a inversão de controle do Spring, como geramos o projeto utilizando o Spring Initializr e também entenderemos sobre o Spring Boot Test e a biblioteca Swagger.
 
-![image](https://user-images.githubusercontent.com/32016610/155890184-b872a096-2f9c-4e15-8b7d-4fa2d6977b33.png)
+<h3> Percurso </h3>
 
-![image](https://user-images.githubusercontent.com/32016610/155890236-8eb582e8-48fe-452f-b976-9115cb68b98c.png)
+- Introdução e Apresentação do Curso
 
-![image](https://user-images.githubusercontent.com/32016610/155890252-23906820-8689-4a1e-900b-23b483b52602.png)
+- Spring Framework
 
-![image](https://user-images.githubusercontent.com/32016610/155890267-26ff3428-409d-4c75-a7ea-6acc7833d689.png)
+- Spring Boot
 
-![image](https://user-images.githubusercontent.com/32016610/155890510-6e758618-8ab2-4fc0-b359-b4b35c546d2e.png)
+- Principais Dependências e Bibliotecas
 
-![image](https://user-images.githubusercontent.com/32016610/155893609-05fb00b2-3fa1-4d81-93e4-080355018b49.png)
+- Spring Boot Test
 
-![image](https://user-images.githubusercontent.com/32016610/155895156-34c9ce78-a190-4236-8ff9-0e7af8f97259.png)
+- Conclusão
+
+
+<h1> Inversão de Controle (IoC) </h1>
+
+
+<h3> Beans </h3>
+
+- Um bean se trata de um objeto que é instanciado, montado e gerenciado por um container do Spring através de Inversão de Controle (IoC) e Injeção de Dependências (DI).
+
+
+![image](https://user-images.githubusercontent.com/32016610/155897612-e09143ac-efe9-4416-b998-9f4e98ddfadb.png)
+
+<h3> Ciclo de vida de um Bean </h3>
+
+![image](https://user-images.githubusercontent.com/32016610/155897626-84a3771f-e5f1-4051-9f82-37cf22175c45.png)
+
+
+<h3> Configurando Beans </h3>
+
+- É possível configurar um Bean de duas formas por arquivos XML ou através de anotações.
+
+- Em XML seria preciso definir a tag <bean> dentro de uma tag principal <beans> passando o path da classe assim o Spring saberá quais classes gerenciar a criação de instâncias e a injeção de dependências.
+
+  <h3> BeanFactory ou ApplicationContext? </h3>
+  
+ - BeanFactory fornece um mecanismo de configuração avançada capaz de gerenciar objetos de qualquer natureza. 
+
+ - ApplicationContext se baseia na BeanFactory (é uma subinterface) e adiciona outras funcionalidades, como integração mais fácil com os recursos AOP do Spring, manipulação de recursos de mensagem (para uso na internacionalização), propagação de eventos e contextos específicos da camada de aplicativo, como o WebApplicationContext para uso em aplicativos da web.
+  
+  
+ <h3> Inversão de Controle </h3>
+  
+  - Inversão de Controle (ou IoC - Inversion of Control) é um processo onde se inverte o fluxo de comando de um programa. 
+  - É uma ideia desacoplar ou remover dependências do objeto e fornecer controle para outra camada. Este objeto delega a tarefa de construir dependências para um contêiner IoC.
+
+  ![image](https://user-images.githubusercontent.com/32016610/155897699-89c00ba3-14f2-49c6-a26a-ac2d5f26d01a.png)
+  
+  
+  <h1> Injeção de Dependência (DI) </h1>
+  
+  - A Injeção de Dependência (ou DI - Dependency Injection) define quais classes serão instanciadas e onde serão injetadas quando for necessário.
+  - Existem três formas de aplicar o DI, por injeção de construtor, setter e interface.
+  - O Spring Framework aplica a IoC quando necessário também utilizando o DI.
+  
+  ![image](https://user-images.githubusercontent.com/32016610/155897752-aa90f4fe-c663-42b4-a9f8-2b75adbca62e.png)
+
+
+
+
+
+
+
+
+
 
 
