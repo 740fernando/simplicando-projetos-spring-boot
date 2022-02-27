@@ -1,4 +1,4 @@
-package com.dio.inversaDeControle;
+package com.springbeans.dio.inversaoDeControle;
 
 public class EnviarEmails {
 
