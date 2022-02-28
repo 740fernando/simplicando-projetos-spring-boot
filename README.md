@@ -47,3 +47,31 @@
   ![image](https://user-images.githubusercontent.com/32016610/155903488-fb91a682-fdff-41f1-936e-fda22c18ce3e.png)
 
   ![image](https://user-images.githubusercontent.com/32016610/155903497-851507f2-0655-459f-81ae-e4bacdf06550.png)
+  
+<h1> Principais Dependências e Bibliotecas </h1>
+
+<h3> Objetivos </h3>
+
+- Swagger
+- Feign
+
+<h1> Swagger </h1>
+
+- Swagger é um projeto open source com diversas ferramentas utilizadas para desenvolver APIs com a especificação OpenAPI Specification (OAS), uma especificação para descrever, produzir, consumir e visualizar serviços de uma API REST. 
+- Com o OAS você poderá descrever recursos, URIs, modelo de dados, métodos HTTP aceitos e códigos de resposta.
+- Tudo isso facilita a vida dos desenvolvedores de diversas linguagens de programação na criação, testes, consumo e documentação de APIs REST.
+
+<h3> Dependências </h3>
+
+![image](https://user-images.githubusercontent.com/32016610/156046038-85ecfed4-3ac6-4069-bd23-2447f1009b71.png)
+
+
+<h1> Feign </h1>
+
+- O Feign é um cliente de serviço web declarativo (cliente HTTP) desenvolvido pela Netflix e um dos mais populares do Spring Cloud Component. 
+- Com ele é possível criar clientes API HTTP no java de forma mais simples para chamar/consumir os serviços REST, utilizando anotações.
+- Para usar o Feign, precisamos adicionar a dependência spring-cloud-starter-openfeign no arquivo pom.xml.
+
+
+
+
