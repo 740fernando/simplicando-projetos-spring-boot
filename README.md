@@ -97,7 +97,7 @@
 
  <h1> Conclusão </h1>
 
-- O ecossistema do Spring Boot veio para facilitar a vida dos desenvolvedores java, podemos ver mais a fundo o seu funcionamento nesse curso, porém, ainda a muito a se aprofundar caso tenha interesse de entender toda sua arquitetura e funcionalidades e não tem problema em não entender tudo, são diversos projetos e nem todos vamos utilizar, vai depender muito do projeto e outros fatores.
+ O ecossistema do Spring Boot veio para facilitar a vida dos desenvolvedores java, podemos ver mais a fundo o seu funcionamento nesse curso, porém, ainda a muito a se aprofundar caso tenha interesse de entender toda sua arquitetura e funcionalidades e não tem problema em não entender tudo, são diversos projetos e nem todos vamos utilizar, vai depender muito do projeto e outros fatores.
 
 
 
