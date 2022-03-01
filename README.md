@@ -72,6 +72,32 @@
 - Com ele é possível criar clientes API HTTP no java de forma mais simples para chamar/consumir os serviços REST, utilizando anotações.
 - Para usar o Feign, precisamos adicionar a dependência spring-cloud-starter-openfeign no arquivo pom.xml.
 
+    <h1> Spring Boot Test </h1>
+
+- O Spring Boot facilita o desenvolvimento de testes de unidade e integração com o Spring Boot Test, um recurso bastante utilizado no desenvolvimento de aplicações java para testar comportamentos do código e regras do negócio.
+
+- Para utilizarmos precisamos usar spring-boot-starter-test , que importa os módulos de teste Spring Boot, bem como JUnit Jupiter, AssertJ, Hamcrest e várias outras bibliotecas úteis.
+
+<h3> Importância do Teste </h3>
+
+- Em desenvolvimento de software, os erros podem aparecer em qualquer etapa do ciclo de vida do projeto. Com isso, o teste de software se torna essencial e não pode ser visto como uma atividade opcional, pois oferece os métodos e ferramentas necessárias para garantir a qualidade de qualquer desenvolvimento.
+
+
+ <h1> Testes Unitários </h1>
+ 
+ - Os testes unitários é a base da pirâmide de testes onde são realizados o maior número de testes ou deveria para garantir a fidelidade do código e regras do negócio.
+
+![image](https://user-images.githubusercontent.com/32016610/156205584-09aa12f6-39e6-47c0-8ff5-02f47e4b52b8.png)
+
+<h1> Explorando o @SpringBootTest </h1>
+
+- A anotação @SpringBootTest é utilizada em uma classe de teste e diz ao Spring Boot para procurar uma classe de configuração principal, por exemplo, o @SpringBootApplication, e usá-la para iniciar um contexto de aplicativo Spring.
+
+![image](https://user-images.githubusercontent.com/32016610/156205834-3764cd82-513e-4c2c-b25f-931db809e940.png)
+
+
+
+
 
 
 
